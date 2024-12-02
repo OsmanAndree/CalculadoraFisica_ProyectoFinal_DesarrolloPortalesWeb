@@ -20,11 +20,11 @@ namespace MS_CalculadoraFisica
     {
 
         [WebMethod]
-        public Data Velocidad(int numberA, int numberB)
+        public Data Velocidad(int Distancia, int Tiempo)
         {
             Data data = new Data();
-            data.DataItems.Add(new DataItem { Name = "numberA", Value = numberA.ToString() });
-            data.DataItems.Add(new DataItem { Name = "numberB", Value = numberB.ToString() });
+            data.DataItems.Add(new DataItem { Name = "Distancia", Value = Distancia.ToString() });
+            data.DataItems.Add(new DataItem { Name = "Tiempo", Value = Tiempo.ToString() });
             data.NombreMetodo = "Velocidad";
             Services srv = new Services();
             Data result = srv.RequestProcess(data);
