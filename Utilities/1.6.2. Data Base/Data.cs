@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace Utilities.Data_Base
 {
-    internal class Data
+    public class Data
     {
+        public Data()
+        {
+            DataItems = new List<DataItem>();
+        }
+
+        public string NombreMetodo;
+        public List<DataItem> DataItems;
     }
 }
