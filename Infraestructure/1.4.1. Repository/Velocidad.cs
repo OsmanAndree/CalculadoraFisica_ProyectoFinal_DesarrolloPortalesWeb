@@ -14,7 +14,7 @@ namespace Infraestructure.Repository
         {
             Data response = new Data();
             response = data;
-            int result = int.Parse(data.DataItems[0].Value.ToString()) * int.Parse(data.DataItems[1].Value.ToString());
+            double result = double.Parse(data.DataItems[0].Value.ToString()) / double.Parse(data.DataItems[1].Value.ToString());
             response.DataItems.Add(new DataItem() { Name = "Resultado", Value = result.ToString() });
             return response;
         }
