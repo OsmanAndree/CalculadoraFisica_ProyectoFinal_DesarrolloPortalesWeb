@@ -8,5 +8,7 @@ namespace Utilities.Data_Base
 {
     internal class DataItem
     {
+        public string Name;
+        public string Value;
     }
 }
