@@ -18,9 +18,15 @@ namespace MS_CalculadoraFisica
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public Data Velocidad(int numberA, int numberB)
         {
-            return "Hola a todos";
+            Data data = new Data();
+            data.DataItems.Add(new DataItem { Name = "numberA", Value = numberA.ToString() });
+            data.DataItems.Add(new DataItem { Name = "numberB", Value = numberB.ToString() });
+            data.NombreMetodo = "Velocidad";
+            Services srv = new Services();
+            Data result = srv.RequestProcess(data);
+            return result;
         }
     }
 }
