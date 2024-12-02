@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="1.6.1. Connection Manager\DBConnection.cs" />
     <Compile Include="1.6.2. Data Base\Data.cs" />
+    <Compile Include="1.6.2. Data Base\DataBase.cs" />
     <Compile Include="1.6.2. Data Base\DataItem.cs" />
     <Compile Include="1.6.3. Repository Base\RepositoryBase.cs" />
     <Compile Include="1.6.4. Service Base\ServiceBase.cs" />
