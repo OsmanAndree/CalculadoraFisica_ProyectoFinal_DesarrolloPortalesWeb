@@ -33,6 +33,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.1.2. Web Application", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS_CalculadoraFisica", "MS_CalculadoraFisica\MS_CalculadoraFisica.csproj", "{73659F64-0B35-4C60-A835-142DBCDED92A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "WebApplication\WebApplication.csproj", "{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{73659F64-0B35-4C60-A835-142DBCDED92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73659F64-0B35-4C60-A835-142DBCDED92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73659F64-0B35-4C60-A835-142DBCDED92A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{DBDACB08-93E5-4F17-B3ED-834E5E465DB8} = {56297F1E-8CF0-4426-9EF2-3C68C36B3E6A}
 		{3FFE0D04-7E71-4BB7-8564-57ACF37DD871} = {56297F1E-8CF0-4426-9EF2-3C68C36B3E6A}
 		{73659F64-0B35-4C60-A835-142DBCDED92A} = {DBDACB08-93E5-4F17-B3ED-834E5E465DB8}
+		{2F30ADAF-8319-4C38-B55F-AC2EFFF48ADB} = {3FFE0D04-7E71-4BB7-8564-57ACF37DD871}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE059E3D-C236-4C11-8423-3B87DBD17230}
