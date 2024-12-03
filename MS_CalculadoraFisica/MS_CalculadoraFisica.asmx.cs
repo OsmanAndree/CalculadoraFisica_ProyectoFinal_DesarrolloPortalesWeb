@@ -30,5 +30,19 @@ namespace MS_CalculadoraFisica
             Data result = srv.RequestProcess(data);
             return result;
         }
+
+        [WebMethod]
+        public Data Aceleracion(double VelocidadFinal, double VelocidadInicial, double Tiempo)
+        {
+            Data data = new Data();
+            data.DataItems.Add(new DataItem { Name = "VelocidadFinal", Value = VelocidadFinal.ToString() });
+            data.DataItems.Add(new DataItem { Name = "VelocidadInicial", Value = VelocidadInicial.ToString() });
+            data.DataItems.Add(new DataItem { Name = "Tiempo", Value = Tiempo.ToString() });
+            data.NombreMetodo = "Aceleracion";
+            Services srv = new Services();
+            Data result = srv.RequestProcess(data);
+            return result;
+        }
+
     }
 }
