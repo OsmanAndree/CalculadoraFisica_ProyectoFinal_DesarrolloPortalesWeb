@@ -21,8 +21,6 @@ namespace Application._1._2._1._Services
                 services.AddItem("Velocidad", new Velocidad());
                 services.AddItem("Aceleracion", new Aceleracion());
 
-
-
                 result = services.RequestProcess(data.NombreMetodo, data);
                 return result;
             }
