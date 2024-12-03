@@ -45,11 +45,11 @@ namespace MS_CalculadoraFisica
         }
 
         [WebMethod]
-        public Data Fuerza(double masa, double aceleracion)
+        public Data Fuerza(double Masa, double Aceleracion)
         {
             Data data = new Data();
-            data.DataItems.Add(new DataItem { Name = "Masa", Value = masa.ToString() });
-            data.DataItems.Add(new DataItem { Name = "Aceleracion", Value = aceleracion.ToString() });
+            data.DataItems.Add(new DataItem { Name = "Masa", Value = Masa.ToString() });
+            data.DataItems.Add(new DataItem { Name = "Aceleracion", Value = Aceleracion.ToString() });
             data.NombreMetodo = "Fuerza";
             Services srv = new Services();
             Data result = srv.RequestProcess(data);
