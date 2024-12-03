@@ -20,7 +20,7 @@ namespace MS_CalculadoraFisica
     {
 
         [WebMethod]
-        public Data Velocidad(int Distancia, int Tiempo)
+        public Data Velocidad(double Distancia, double Tiempo)
         {
             Data data = new Data();
             data.DataItems.Add(new DataItem { Name = "Distancia", Value = Distancia.ToString() });
